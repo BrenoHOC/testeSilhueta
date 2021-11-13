@@ -1,0 +1,31 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API para teste de Silhueta",
+        "version": "0.1"
+    },
+    "paths": {
+        "/silhueta": {
+            "put": {
+                "summary": "Verifica a quantidade de copos de água para cobrir toda a silhueta",
+                "requestBody": {
+                    "content": {
+                        "raw": {
+                            "schema": {
+                                "type": "object"
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "Retorna com a quantidade. Cada linha representa o total de copos de água por silhueta"
+                    },
+                    "404": {
+                        "description": "Necessário enviar os dados da(s) silhueta(s)"
+                    }
+                }
+            }
+        }
+    }
+}
