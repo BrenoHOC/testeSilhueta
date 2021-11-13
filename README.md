@@ -16,4 +16,4 @@ Para o teste é necessário o envio dos dados, através do método PUT, no body.
 
     ###### Vide exemplo abaixo
 
-<img src="storage/app/exemploRota.jpg" width="600">
+<img src="public/exemploRota.jpg" width="600">
