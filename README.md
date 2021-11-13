@@ -2,6 +2,8 @@
 
 O objetivo do teste é verificar a quantidade de copos de água são necessários para cobrir todas as silhuetas.
 
+Para a documentação da API, foi utilizado o SWAGGER e encontra-se na rota "/docs";
+
 #### Parâmetros
 
 Foi desenvolvido a rota silhueta. Espera-se que seja enviado
